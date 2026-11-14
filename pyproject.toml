@@ -1,0 +1,9 @@
+[project]
+name = "hidden-premise-lab"
+version = "0.1.0"
+description = "Functional benchmark & 4-layer judge harness for Hidden Premise Conflict MARL"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
